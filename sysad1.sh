@@ -260,8 +260,6 @@ function record {
   mo="0"$mo
  fi
  #Fetch the correct troops for correct chief
- declare use
- use=$USER
  for ((i=0;i<3;i++))
  do
   if [[ $USER == "${nam_ar[$i]}" ]]
